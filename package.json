@@ -1,0 +1,37 @@
+{
+	"name": "bind_cpp_js",
+	"version": "0.0.1",
+	"description": "testing how to bind C++ code from JavaScript code in browser using nbind.",
+	"keywords": [
+		"nbind",
+		"C++",
+		"JavaScript"
+	],
+	"homepage": "https://github.com/THuRStoN/bind_cpp_js#readme",
+	"bugs": {
+		"url": "https://github.com/THuRStoN/bind_cpp_js/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Alex Conceiro",
+		"url": "https://conceiro.com",
+		"email": "conceiro@gmail.com"
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/THuRStoN/bind_cpp_js.git"
+	},
+	"scripts": {
+		"autogypi": "autogypi",
+		"node-gyp": "node-gyp",
+		"emcc-path": "emcc-path",
+		"copyasm": "copyasm",
+		"install": "autogypi && node-gyp configure build"
+	},
+	"dependencies": {
+		"autogypi": "^0.2.2",
+		"nbind": "^0.2.1",
+		"node-gyp": "^3.3.1"
+	}
+}
