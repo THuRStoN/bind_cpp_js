@@ -10,7 +10,7 @@ struct Greeter {
   {
     cout << "Hello, " << name << "!" << endl;
     if ( "José Elías" == name  ) {
-      cout << name << "que la lías!!!" << endl;
+      cout << name << " que la lías!!!" << endl;
     }
   }
 };

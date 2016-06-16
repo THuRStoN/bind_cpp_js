@@ -2,7 +2,8 @@ bind_cpp_js
 =============
 Testing how to bind C++ code from JavaScript code in browser using [nbind](https://github.com/charto/nbind).
 
-Depends on [nbind](https://github.com/charto/nbind) to easily define addon's API and on [autogypi](https://github.com/charto/autogypi) to handle compiler & node-gyp options to compile native code.
+Depends on [nbind](https://github.com/charto/nbind) to easily define addon's API and on [autogypi](https://github.com/charto/autogypi) to handle compiler & node-gyp options to compile native code. For a browser environment [emscripten](http://kripken.github.io/emscripten-site/) should be installed.
+
 
 ## Initialize (on project creation only)
 
